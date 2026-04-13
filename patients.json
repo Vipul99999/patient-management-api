@@ -1,0 +1,59 @@
+{
+    "patients": [
+        {
+        "id": 1,
+        "name": "John Doe",
+        "age": 30,
+        "gender": "Male",
+        "diagnosis": "Flu",
+        "city": "New York",
+        "country": "USA",
+        "height": 180,
+        "weight": 80
+        },
+        {
+        "id": 2,
+        "name": "Jane Smith",
+        "age": 25,
+        "gender": "Female",
+        "diagnosis": "Cold",    
+        "city": "Los Angeles",
+        "country": "USA",
+        "height": 165,
+        "weight": 60
+        },
+        {   
+        "id": 3,
+        "name": "Alice Johnson",
+        "age": 40,
+        "gender": "Female",
+        "diagnosis": "Diabetes",    
+        "city": "Chicago",
+        "country": "USA",
+        "height": 170,
+        "weight": 70
+        },
+        {
+        "id": 4,
+        "name": "Bob Brown",
+        "age": 50,
+        "gender": "Male",
+        "diagnosis": "Hypertension",    
+        "city": "Houston",
+        "country": "USA",
+        "height": 175,
+        "weight": 85
+        },
+        {
+        "id": 5,
+        "name": "Charlie Davis",
+        "age": 35,  
+        "gender": "Male",
+        "diagnosis": "Asthma",
+        "city": "Phoenix",
+        "country": "USA",
+        "height": 185,
+        "weight": 90    
+        }
+    ]
+}
