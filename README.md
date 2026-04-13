@@ -128,6 +128,50 @@ FastAPI provides built-in interactive docs:
 ```
 
 ---
+# In main2.py file we have
+Path Parameters
+patient_id: int = Path(..., gt=0)
+
+✔ Required
+✔ Validation (must be > 0)
+
+✅ 2. Query Parameters
+gender: str = Query(None)
+min_age: int = Query(None, ge=0)
+
+👉 Example:
+
+/patients?gender=Male&min_age=20
+  3. Filtering Logic
+
+You can now:
+
+Filter by gender
+Filter by age range
+Search by name
+🧪 Example URLs
+ 
+👉 All patients
+```
+http://127.0.0.1:8000/patients
+```
+
+👉 Filter
+```
+http://127.0.0.1:8000/patients?gender=Male&min_age=25
+```
+👉 Search
+```
+http://127.0.0.1:8000/search?name=john
+🧠 What You Learned (Important)
+```
+We now used here :
+```
+✔ Path() → URL parameters
+✔ Query() → filters/search
+✔ Validation (gt, ge, min_length)
+✔ Real API behavior
+```
 
 ## ⚠️ Notes
 
