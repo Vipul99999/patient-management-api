@@ -163,9 +163,8 @@ http://127.0.0.1:8000/patients?gender=Male&min_age=25
 👉 Search
 ```
 http://127.0.0.1:8000/search?name=john
-🧠 What You Learned (Important)
 ```
-We now used here :
+What you learned important :
 ```
 ✔ Path() → URL parameters
 ✔ Query() → filters/search
@@ -195,7 +194,6 @@ We now used here :
 
 Vipul Kumar Patel
 
----
 
 ## 📄 License
 
